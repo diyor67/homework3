@@ -1,0 +1,11 @@
+@mixin flex() {
+    display: flex;
+    align-items: center;
+    justify-content: a;
+}
+
+@mixin unlist {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}

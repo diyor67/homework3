@@ -1,0 +1,58 @@
+@import './variables';
+@import './mixins';
+@import './normalize';
+@import './general';
+@import '../sass/blocks/blocks';
+
+
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+    .hero__inner {
+        background-image: url('../images/hero-bg@2x.jpg');
+    }
+
+
+    .hero__inner {
+        background-image: url('../images/hero_tablet-bg@2x.jpg');
+    }
+
+    .hero__inner {
+        background-image: url('../images/hero_mobile-bg@2x.jpg');
+    }
+
+    .intro__inner {
+        background-image: url('../images/intro-decore@2x.png');
+    }
+
+    .about-hero__inner {
+        background-image: url('../images/about-hero_bg@2x.jpg');
+    }
+
+    .about-hero__inner {
+        background-image: url('../images/about-hero_bg_tablet@2x.jpg');
+    }
+
+    .about-hero__inner {
+        background-image: url('../images/about-hero_bg_mobile@2x.jpg');
+    }
+
+    .subscribe-hero__inner {
+        background-image: url('../images/subscribe-hero-bg@2x.jpg');
+    }
+
+    .subscribe-hero__inner {
+        background-image: url('../images/subscribe-hero-bg_tablet@2x.jpg');
+    }
+
+    .subscribe-hero__inner {
+        background-image: url('../images/subscribe-hero-bg_mobile@2x.jpg');
+    }
+}

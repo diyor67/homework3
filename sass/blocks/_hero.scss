@@ -1,0 +1,118 @@
+.hero {
+    padding-bottom: 136px;
+}
+
+.hero__inner {
+    padding: 117px 0;
+    padding-left: 85px;
+    background-image: url('../images/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+}
+
+.hero__content {
+    width: 100%;
+    max-width: 493px;
+}
+
+.hero__title {
+    margin: 0;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.hero__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 56px;
+}
+
+.mainbtn {
+    display: inline-block;
+    padding: 15px 31px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEFCF7;
+    text-decoration: none;
+    background-color: #0E8784;
+    border-radius: 6px;
+    transition: all .2s ease;
+
+    &:hover {
+        background-color: #66D2CF;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .hero {
+        padding-bottom: 144px;
+    }
+
+    .hero__inner {
+        padding: 104px 0;
+        padding-left: 58px;
+        background-image: url('../images/hero_tablet-bg.jpg');
+    }
+
+    .hero__content {
+        max-width: 398px;
+    }
+
+    .hero__title {
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 24px;
+    }
+
+    .hero__text {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .hero {
+        padding-bottom: 120px;
+    }
+
+    .hero__inner {
+        display: flex;
+        padding: 100px 24px;
+        justify-content: center;
+        background-image: url('../images/hero_mobile-bg.jpg');
+    }
+
+    .hero__content {
+        max-width: 355px;
+        text-align: center;
+    }
+
+    .hero__title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+}
+
+@media only screen and (max-width:354px) {
+    .hero__inner {
+        background-size: 100% 100%;
+    }
+
+    .hero__title {
+        font-size: 34px;
+    }
+}
